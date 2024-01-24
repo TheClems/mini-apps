@@ -7,6 +7,7 @@ const screen = document.querySelector('.screen');
 function buttonClick(value){
 console.log('buttonClick');
     if(isNaN(value)){
+        handleSymbol(value);
     }else{
         handleNumber(value);
     }
